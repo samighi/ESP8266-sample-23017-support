@@ -25,12 +25,12 @@ HTTP server started</code>
 
 Turn off all lights
 
-    http://serveripaddress?/ledtest?A=0&B=0  
+    http://serveripaddress/ledtest?A=0&B=0  
 
 Turn on all A or B side of the lights (0-255)
 
-    http://serveripaddress?/ledtest?A=255&B=0 
-    http://serveripaddress?/ledtest?A=0&B=255
+    http://serveripaddress/ledtest?A=255&B=0 
+    http://serveripaddress/ledtest?A=0&B=255
 
 Not that giving A to a binary value of each LED, will set all lights to the current requirement. 
 
