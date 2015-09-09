@@ -1,6 +1,15 @@
 # ESP8266-sample-23017-support
 ESP8266 sample of advance server + 23017 I2C expander support 
 
+<B>Requirement</B>
+
+ESP8266-12 module
+MCP23017 I2C expander
+Arudino IDE 1.6.5 
+Preferences - Board Manager URL -  http://arduino.esp8266.com/package_esp8266com_index.json
+
+<B>Setup</B>
+
 Please use this file a a sample of ESP8266 and 23017. 
 
 it uses GPIO4 and GPIO5 for processing. Please note that on some boards, 4 and 5 are reversed. Please experiment to find out. 
